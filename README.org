@@ -1,0 +1,14 @@
+* Columbus
+Columbus is a port scanner and pinger for public ip addresses, which then will store it in an sqllite database.
+The program will currently scan every 50ms, for some reason when scanning below 50 it does not return anything.
+If able to go past this limitation, asynchronous and multi-threaded are planned.
+
+
+** Installation
+
+Cargo: 
+#+begin_src
+git clone https://github.com/elliowo/columbus
+cd columbus
+cargo install --path .
+#+end_src
